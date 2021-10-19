@@ -1,0 +1,231 @@
+div.navbar
+{
+    padding: 0;
+    background-color:black;
+}
+ul.nav-top
+{
+    width:100%;
+}
+div.navbar ul.nav-top li 
+{
+    color: azure;
+    list-style: none;
+    float:left;
+    padding: 15px;
+    font-size: 20px;
+}
+div.navbar ul.nav-top
+{
+    margin: 0;
+    padding: 0;
+    display:block;
+}
+div.navbar ul.nav-top li.logo
+{
+    padding-top:0px;
+    padding-bottom: 1px;;
+}
+
+div.navbar ul.nav-top li.nav-right
+{
+    float:right;
+}
+
+div.navbar ul.nav-top li a
+{
+    text-decoration: none;
+    color: azure;
+    opacity:0.6;
+}
+
+div.navbar ul.nav-top li a:hover
+{
+    color: aqua;
+    transition-duration: 0.8s;
+    font-size: 20px;
+    padding:7px;
+    opacity:1;
+}
+
+div.navbar ul.nav-top li.dropdown
+{
+   display:none;
+}
+
+
+@media (max-width:710px)
+{
+    div.navbar ul.nav-top :not(:nth-child(1))
+    {
+        display:none;
+    }
+    div.navbar ul.nav-top li.dropdown
+    {
+        display:flex;
+        float:right;
+    }
+
+    div.navbar ul.nav-top.responsive
+    {
+        position: relative;
+    }
+
+    div.navbar ul.nav-top.responsive li
+    {
+        display: block;
+        float:none;
+    }
+    div.navbar ul.nav-top.responsive  li a
+    {
+        display:inline;
+        text-align:left;
+    }
+
+    div.navbar ul.nav-top.responsive li.dropdown a
+    {
+        position:fixed;
+        top:0;
+        right:0;
+        margin-right: 1rem;
+        margin-top:1rem;
+    }
+
+
+}
+
+
+div.jumbotron
+{
+    text-align: center;
+    background-color:white;
+}
+
+.img-fluid
+{
+    height:150px;
+}
+
+div.section
+{
+    background-color: rgb(233, 233, 233);
+}
+div.section div.row div.col-6
+{
+    margin:auto;
+}
+
+div.section-2
+{
+    background-color: rgb(173, 169, 169);
+}
+div.section-2 div.row div.row div.col-md-9
+{
+    padding:0;
+}
+
+div.section-3 div.row div.col-sm-12.col-md-4 div.box img:hover
+{
+    height: 250px;
+    width:250px;
+    transition: 0.8s;
+    padding:10px;
+}
+
+
+
+button.btn
+{
+    margin:auto;
+    background-color: black;
+    color:azure;
+    font-size: 20px;
+    padding:10px;
+}
+
+footer{
+    margin-top: 10px;;
+    background-color: black;
+}
+footer div.cont div.row h3
+{
+    margin:auto;
+    margin-top: 5px;
+    color:azure;
+}
+footer div.cont div.row ul
+{
+    color:azure;
+    list-style: none;
+    font-size: 20px;
+    
+}
+
+footer div.cont div.row ul li
+{
+    display: block;
+    float:left;
+    padding:20px;
+}
+
+footer div.cont div.row div.col-sm-12.col-md-4 ul li a
+{
+    opacity:0.6;
+}
+footer div.cont div.row div.col-sm-12.col-md-4 ul li a:hover
+{
+    width:100px;
+    height:100px;
+    transition:0.8s;
+    padding:20px;
+    opacity:1;
+    color:aqua;
+}
+
+footer div.cont div.row
+{
+    margin-top:10px;
+    margin-bottom: 10px;;
+}
+
+
+
+
+
+div.section-3 div.row h1
+{
+    margin: auto;
+    margin-top:2rem;
+    padding:20px;
+}
+
+div.section-3 div.row div.col-md-4 img
+{
+    display: block;
+    margin:auto;
+    padding-top:2rem;
+}
+
+div.section-3 div.row div.col-md-4 button
+{
+    display:block;
+    margin-top: 20px;
+   
+}
+
+div.box
+{
+    box-sizing: border-box;
+    box-shadow: -2px 4px 14px -1px rgba(0,0,0,0.24);
+    width:75%;
+    margin: auto;
+}
+
+ button:hover
+{
+    color:aqua;
+    transition: 0.8s;
+    font-size: 30px;
+    padding: 10px;
+}
+
